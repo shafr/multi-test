@@ -1,6 +1,7 @@
 name: ✨ New device support request
 description: Request support for new device
-title: "(Please put here manufacturer, model & device type - for example EACHINE E010 Drone)"
+title: '[DR] '
+placeholder: '(Please put here manufacturer, model & device type - for example EACHINE E010 Drone)'
 labels: 'New protocol'
 body:
   - type: markdown
@@ -25,3 +26,7 @@ body:
         - **unless fcc did not produce any results & under your own responsibility:** Can you disassemble device & take a look inside receiver & transmitter ? It would be useful to know what chip is used inside.
 
         - Can you take a photo of device / controller, paste them here, and do [google image search](https://images.google.com) for similar devices ?
+      placeholder: |
+        1. FCC LINK: ...
+        2. Similar model: ...
+        3. [and so on] ...
