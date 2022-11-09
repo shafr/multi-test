@@ -100,24 +100,10 @@ body:
 
   - type: input
     attributes:
-      label: Controller / Transmitter model
-      description: 'Jumper T-pro', 'etc'?
+      label: Remote / Controller / Transmitter model
+      description: 'Jumper T-pro, Radiomaster TX16 MK2, etc..'
 
   - type: input
     attributes:
       label: Receiver / Device model
       description: 'EACHINE E010'
-
-  - type: dropdown
-    attributes:
-      label: Bed Leveling
-      description: What kind of bed leveling compensation are you using?
-      options:
-        - UBL Bilinear mesh
-        - ABL Bilinear mesh
-        - ABL Linear grid
-        - ABL 3-point
-        - MBL Manual Bed Leveling
-        - No Bed Leveling
-
-
