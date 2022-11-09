@@ -6,8 +6,10 @@ body:
   - type: markdown
     attributes:
       value: >
-        Before creating new request, please check [Discussions page](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/discussions)
-        Do a search on official forum [support links](https://www.rcgroups.com/forums/showthread.php?2165676-DIY-Multiprotocol-TX-Module/page10000).
+        Before creating new request, please search through: 
+        - [Discussions page](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/discussions)
+
+        - [Official forum](https://www.rcgroups.com/forums/showthread.php?2165676-DIY-Multiprotocol-TX-Module/page10000).
 
   - type: markdown
     attributes:
