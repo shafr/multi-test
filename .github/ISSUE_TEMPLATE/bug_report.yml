@@ -1,7 +1,7 @@
 name: 🪲 Report a bug
 description: Create a bug report to help improve MultiProtocol Firmware
 title: "[BUG] (bug summary)"
-labels: 'New protocol'
+labels: 'help wanted'
 body:
   - type: markdown
     attributes:
@@ -18,8 +18,8 @@ body:
     attributes:
       label: Have you tested with the latest release version?
       description: >-
-        Always try the latest code to make sure the issue you are reporting is not already fixed. To download
-        the latest code just [click this link](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/releases).
+        Always try the [latest code](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/releases)
+        to make sure the issue you are reporting is not already fixed. 
       options:
         - Yes, and the problem still exists.
         - No, but I will test it now!
@@ -40,18 +40,18 @@ body:
 
   - type: input
     attributes:
-      label: Protocol (optional)
+      label: Protocol
       description: "One of [existing protocols](https://www.multi-module.org/using-the-module/protocol-details)"
       placeholder: 'Asan / Bayang / ... '
 
   - type: input
     attributes:
       label: Remote / Controller / Transmitter model
-      placeholder: 'Jumper T-pro, Radiomaster TX16 MK2, external name...'
+      placeholder: 'RadioMaster TX16S MK2, Jumper T-pro, external module name...'
 
   - type: input
     attributes:
-      label: Receiver / Device model / type
+      label: Receiver / Device model / Type
       placeholder: 'EACHINE E010 Drone'
 
   - type: markdown
