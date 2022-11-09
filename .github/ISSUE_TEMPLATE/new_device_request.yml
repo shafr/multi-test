@@ -1,0 +1,31 @@
+name: ✨ New device support request
+description: Request support for new device
+title: "(model name)"
+labels: 'T: New protocol'
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Before creating new request, please check [Discussions page](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/discussions)
+        Do a search on official forum [support links](https://www.rcgroups.com/forums/showthread.php?2165676-DIY-Multiprotocol-TX-Module/page10000).
+
+  - type: markdown
+    attributes:
+      value: >
+        ## TLDR on adding new devices
+
+        - Often different models of same manufacturer / supplier (like EACHINE) have different protocols. 
+        - It's worth trying with similar devices of same manufacturer first though.
+
+  - type: textarea
+    attributes:
+      label: Device manufacturer & model
+      description: Please state model and manufacturer.
+
+  - type: textarea
+    attributes:
+      label: Provide any other useful information
+      description: >
+        - Can you disassemble device & take a look inside receiver & transmitter ? It would be useful to know what chip is used inside.
+        - Can you search [fccid site](https://fccid.io/company.php). Use company name. Usually it would find have few entries for same manufacturer. 
+        Go through the devices & try to find your specific device.

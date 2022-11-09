@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Supported protocols / documentation
+    url: https://www.multi-module.org/using-the-module/protocol-details
+    about: List of supported protocol / link on official documentation
+  - name: 🔗 Multi-protocol Discussion Forum
+    url: https://www.rcgroups.com/forums/showthread.php?2165676-DIY-Multiprotocol-TX-Module/page10000
+    about: A searchable web forum that contains discussions about multi-protocol & models.
+  - name: 💸 Want to donate?
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VF2K9T23DRY56&lc=US&item_name=DIY%20Multiprotocol&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
+    about: Please take a look at the various options to support Multiprotocol development financially!
