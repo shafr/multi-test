@@ -1,7 +1,6 @@
 name: ✨ New device support request
 description: Request support for new device
-title: '[DR] '
-placeholder: '(Please put here manufacturer, model & device type - for example EACHINE E010 Drone)'
+title: "[DR] (Please put here manufacturer, model & device type - for example EACHINE E010 Drone)"
 labels: 'New protocol'
 body:
   - type: markdown
