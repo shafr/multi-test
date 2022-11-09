@@ -29,6 +29,34 @@ body:
   - type: markdown
     attributes:
       value: |
+        # Your Setup
+
+  - type: input
+    attributes:
+      label: Version of MultiProtocol firmware
+      placeholder: something like `v1.3.3.20`
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Protocol (optional)
+      description: "One of [existing protocols](https://www.multi-module.org/using-the-module/protocol-details)"
+      placeholder: 'Asan / Bayang / ... '
+
+  - type: input
+    attributes:
+      label: Remote / Controller / Transmitter model
+      placeholder: 'Jumper T-pro, Radiomaster TX16 MK2, external name...'
+
+  - type: input
+    attributes:
+      label: Receiver / Device model
+      placeholder: 'EACHINE E010'
+
+  - type: markdown
+    attributes:
+      value: |
         # Bug Details
 
   - type: textarea
@@ -44,11 +72,6 @@ body:
         Marlin doesn't work.
     validations:
       required: true
-
-  - type: input
-    attributes:
-      label: Bug Timeline
-      description: Is this a new bug or an old issue? When did it first start?
 
   - type: textarea
     attributes:
@@ -72,31 +95,3 @@ body:
         1. [First Step] ...
         2. [Second Step] ...
         3. [and so on] ...
-
-  - type: markdown
-    attributes:
-      value: |
-        # Your Setup
-
-  - type: input
-    attributes:
-      label: Version of MultiProtocol firmware
-      description: "See the About Menu on the LCD or the output of `M115`. NOTE: For older releases we only patch critical bugs."
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Protocol
-      description: "One of [existing protocols](https://www.multi-module.org/using-the-module/protocol-details)"
-      placeholder: 'Asan / Bayang / ... '
-
-  - type: input
-    attributes:
-      label: Remote / Controller / Transmitter model
-      placeholder: 'Jumper T-pro, Radiomaster TX16 MK2, etc..'
-
-  - type: input
-    attributes:
-      label: Receiver / Device model
-      placeholder: 'EACHINE E010'
