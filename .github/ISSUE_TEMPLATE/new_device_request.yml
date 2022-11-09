@@ -27,8 +27,8 @@ body:
       label: Provide any other useful information
       description: >
         - Can you search [fccid site](https://fccid.io/company.php). Use company name. Usually it would find have few entries for same manufacturer. 
-        Go through the devices & try to find your specific device.
+        Go through the devices & try to find your specific device. It will help you find disassembled device & some useful technical information.
 
-        - `Advanced users` Can you disassemble device & take a look inside receiver & transmitter ? It would be useful to know what chip is used inside.
+        - `Advanced users (unless fcc did not produce any results)` Can you disassemble device & take a look inside receiver & transmitter ? It would be useful to know what chip is used inside.
 
         - Can you take a photo of device / controller, paste them here, and do [google image search](https://images.google.com) for similar devices ?
