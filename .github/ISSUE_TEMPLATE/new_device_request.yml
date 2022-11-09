@@ -1,6 +1,6 @@
 name: ✨ New device support request
 description: Request support for new device
-title: "(model name)"
+title: "(Please put here manufacturer, model & device type - for example EACHINE E010 Drone)"
 labels: 'T: New protocol'
 body:
   - type: markdown
@@ -16,11 +16,6 @@ body:
 
         - Often different models of same manufacturer / supplier (like EACHINE) have different protocols. 
         - It's worth trying with similar devices of same manufacturer first though.
-
-  - type: textarea
-    attributes:
-      label: Device manufacturer & model
-      description: Please state model and manufacturer.
 
   - type: textarea
     attributes:
