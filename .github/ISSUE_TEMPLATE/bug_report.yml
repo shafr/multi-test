@@ -8,7 +8,7 @@ body:
       value: >
         Before creating new Issue, please search through: 
 
-        - Existing issues
+        - [Existing issues](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/issues)
 
         - [Discussions page](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/discussions)
 
@@ -51,8 +51,8 @@ body:
 
   - type: input
     attributes:
-      label: Receiver / Device model
-      placeholder: 'EACHINE E010'
+      label: Receiver / Device model / type
+      placeholder: 'EACHINE E010 Drone'
 
   - type: markdown
     attributes:
