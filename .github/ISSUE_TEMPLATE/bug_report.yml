@@ -6,26 +6,13 @@ body:
   - type: markdown
     attributes:
       value: >
-        Do you want to ask a question? Are you looking for support? Please use one of the [support links](https://github.com/MarlinFirmware/Marlin/issues/new/choose).
+        Before creating new Issue, please search through: 
 
-  - type: markdown
-    attributes:
-      value: |
-        **Thank you for reporting a bug in Marlin Firmware!**
+        - Existing issues
 
-        ## Before Reporting a Bug
+        - [Discussions page](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/discussions)
 
-        - Read and understand Marlin's [Code of Conduct](https://github.com/MarlinFirmware/Marlin/blob/bugfix-2.1.x/.github/code_of_conduct.md). You are expected to comply with it, including treating everyone with respect.
-
-        - Test with the [`bugfix-2.1.x` branch](https://github.com/MarlinFirmware/Marlin/archive/bugfix-2.1.x.zip) to see whether the issue still exists.
-
-        ## Instructions
-
-        Please follow the instructions below. Failure to do so may result in your issue being closed. See [Contributing to Marlin](https://github.com/MarlinFirmware/Marlin/blob/bugfix-2.1.x/.github/contributing.md) for additional guidelines.
-
-        1. Provide a good title starting with [BUG].
-        2. Fill out all sections of this bug report form.
-        3. Always attach configuration files so we can build and test your setup.
+        - [Official forum](https://www.rcgroups.com/forums/showthread.php?2165676-DIY-Multiprotocol-TX-Module/page10000)
 
   - type: dropdown
     attributes:
@@ -100,10 +87,16 @@ body:
 
   - type: input
     attributes:
+      label: Protocol
+      description: "One of [existing protocols](https://www.multi-module.org/using-the-module/protocol-details)"
+      placeholder: 'Asan / Bayang / ... '
+
+  - type: input
+    attributes:
       label: Remote / Controller / Transmitter model
-      description: 'Jumper T-pro, Radiomaster TX16 MK2, etc..'
+      placeholder: 'Jumper T-pro, Radiomaster TX16 MK2, etc..'
 
   - type: input
     attributes:
       label: Receiver / Device model
-      description: 'EACHINE E010'
+      placeholder: 'EACHINE E010'
