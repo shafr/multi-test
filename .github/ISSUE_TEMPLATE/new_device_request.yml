@@ -12,6 +12,9 @@ body:
 
         - [Official forum](https://www.rcgroups.com/forums/showthread.php?2165676-DIY-Multiprotocol-TX-Module/page10000)
 
+        - Also same manufacturer can have devices with different protocol (like Eachine drones). 
+          It's worth trying existing devices from same manufacturer just in case.
+
   - type: textarea
     attributes:
       label: Provide any other useful information
